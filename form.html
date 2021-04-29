@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>69 - Vishal Chaudhari</title>
+    <style>
+    .container {   
+        margin: auto;
+        width: 100%;  
+        }
+        .form-control {
+            margin-top: 10px;
+            width: 100%;
+            padding: 10px;
+        }
+        
+        .btn-primary {
+            margin-top: 10px;
+            color: #212529;
+            display: inline-block;
+            font-weight: 400;
+            background-color: #00FF00;
+        }
+        .btn-danger {
+            margin-top: 10px;
+            background-color: #FF0000;
+        }
+    </style>
+
+</head>
+<body>
+    <h2>
+        <center>
+            HTML FORM
+        </center>
+    </h2>
+
+    <div class="container">
+        <form action="form.html" method="post">
+
+        <input type="text" name="first_name" id="first_name" required placeholder="Enter Your First Name" class="form-control w-50">
+        <input type="text" name="last_name" id="last_name" required placeholder="Enter Your Last Name" class="form-control w-50">
+        
+        <input type="email" name="email" id="email" class="form-control" placeholder="Enter Email Address" required>
+        
+        <input type="tel" name="mobileNo" id="mobileNo" class="form-control" placeholder="Enter Mobile No" required>
+
+        <textarea name="address" id="address" cols="30" rows="5" class="form-control" placeholder="Enter Address"></textarea>
+        
+        <input type="radio" name="gender" id="male"><label for="male">Male</label>
+        <input type="radio" name="gender" id="female"><label for="female">Female</label>
+       
+        <select name="bg" id="bg" class="form-control">
+        <option selected><center>--Select--</center></option>
+        <option value="Maharashtra State Board Of Education">Maharashtra State Board Of Education</option>
+        <option value="Central Board Of Secondary Education">Central Board Of Secondary Education</option>
+        <option value="Maharashtra State Board of technical Education">Maharashtra State Board of technical Education</option>
+        <option value="International Board Of Education">International Board Of Education</option>
+        <option value="other">Other</option>
+        </select>
+
+        <input type="submit" value="Submit" class="btn-primary">
+        <input type="reset" value="Reset" class="btn-danger">
+        </form>
+        </div>
+</body>
+</html>
+      
