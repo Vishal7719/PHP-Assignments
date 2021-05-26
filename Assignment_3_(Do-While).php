@@ -7,8 +7,7 @@
     <title>Do...While -08-04-2021</title>
 </head>
 <body>
-<h1 align=center>69-Vishal Chaudhari</h1>
-<h2 align=center>Assignment 3</h2>
+<h3 align=center>69-Vishal Chaudhari</h3>
 <?php
 
 $a = 1;

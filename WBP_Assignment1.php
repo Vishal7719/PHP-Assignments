@@ -56,9 +56,6 @@
     echo "no1 || no2 :- ",($no1 || $no2) ? 'True <br/>' : 'False <br/>';
    
     
-    
-    
-
     echo "<br/><br /><b>6. BITWISE OPERATORS</b><br/>******************************<br>";
     echo "no1 & no2 :- ",($no1 & $no2),'<br/>';
     echo "no1 | no2 :- ",($no1 | $no2),'<br/>';

@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Switch-08-04-2021</title>
+    <title>Else_If-06-04-2021</title>
 </head>
 
 <body>
-<h1 align=center>69-Vishal Chaudhari-Nested If-08-04-2021</h1>
+<h3 align=center>69-Vishal Chaudhari-06-04-2021</h3>
 <?php  
     $marks=91;      
     if ($marks<33){    

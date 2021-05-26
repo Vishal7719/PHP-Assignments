@@ -4,11 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Array2d -08-04-2021</title>
+    <title> 69-Vishal Chaudhari-08-04-2021</title>
 </head>
 <body>
-<h1 align=center>69-Vishal Chaudhari</h1>
-<h2 align=center>Assignment 4</h2>
+<h1 align=center>Array2d</h1>
 <?php
     $arr1 = array(
         array(1, 3),
